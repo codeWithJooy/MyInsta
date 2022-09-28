@@ -34,3 +34,18 @@ input[type='text']{
 
     border:1px solid black;
 }
+
+.loginContainer{
+    width:400px;
+    min-height: 800px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border:1px solid red;
+}
+.loginCredentials{
+    width:350px;
+    min-height: 100px;
+    background: #fff;
+    border:1px solid #dbdbdb;
+}
