@@ -142,3 +142,20 @@
     height:auto;
 }
 
+
+.profileContainer{
+    width:950px;
+    min-height:100px;
+}
+.imageSection{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.imageSection img{
+    width:293px;
+    height:293px;
+    margin-bottom: 10px;
+}
