@@ -1,9 +1,9 @@
-import Login from './pages/Login/Login'
+import Sign from './pages/SignUp/Sign'
 
 function App() {
   return (
     <div className="main">
-       <Login />
+       <Sign />
     </div>
   );
 }
