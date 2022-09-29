@@ -21,31 +21,124 @@
     justify-content: center;
     border:1px solid red;
 }
-input[type='file']{
-    width:100%;
-    height:30px;
-    margin:20px;
-}
-input[type='text']{
-    width:60%;
-    height:30;
-    padding:10px 20px;
-    margin:20px;
 
-    border:1px solid black;
-}
 
-.loginContainer{
+.signupContainer{
     width:400px;
     min-height: 800px;
     display:flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    border:1px solid red;
 }
-.loginCredentials{
+.signupCredentials{
     width:350px;
     min-height: 100px;
     background: #fff;
+    padding:30px 30px;
     border:1px solid #dbdbdb;
 }
+.imageContainer{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 30px;
+    text-align:center;
+    font-size: 17px;
+}
+.signupTitle{
+    color:#8c8c8c;
+}
+.fbSignup{
+    width:100%;
+    padding:0px 50px;
+    border-radius: 4px;
+    border:1px solid transparent;
+    background:#0095f6;
+}
+.fbSignup p{
+    color:white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.fbSignupDisable{
+    width:100%;
+    padding:0px 50px;
+    border-radius: 4px;
+    border:1px solid transparent;
+    background:#0095f6;
+    margin-top: 20px;
+}
+.fbSignupDisable p{
+    color:white;
+    font-size: 15px;
+    font-weight: bold;
+}
+.dividerContainer{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.divider{
+    width:40%;
+    height:0px;
+    border:1px solid #dbdbdb;
+}
+.dividerText{
+    width:20%;
+    text-align: center;
+}
+.inputSection{
+    width:100%;
+}
+.inputUnit{
+    width:100%;
+    background: #fafafa;
+    padding:10px 15px;
+    margin:10px 0px;
+}
+.inputUnit input{
+    border:none;
+    width:100%;
+    outline:none;
+    padding:10px 0px;
+    background:transparent;
+    
+}
+
+.already{
+    width:350px;
+    height:80px;
+    display:flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    border:1px solid #dbdbdb;
+    margin-top: 20px;
+}
+
+.getApp{
+    width:350px;
+    min-height: 100px;
+}
+.getText{
+    width:100%;
+    text-align: center;
+}
+.getImages{
+    width:100%;
+    display:flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.getPics{
+    width:150px;
+    height:auto;
+}
+
