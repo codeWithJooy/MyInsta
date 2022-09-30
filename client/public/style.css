@@ -156,9 +156,13 @@
 .profileContainer{
     width:950px;
     min-height:100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
 }
 .topSection{
-    width:100%;
+    width:80%;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -187,14 +191,59 @@
 .topProfile{
     width:100%;
     display:flex;
+    align-items: center;
     justify-content: flex-start;
 }
 .userName{
-    width:50%;
+    min-width: 10%;
+    width:auto;
+    max-width:60%;
+    padding:0px 20px 0px 0px;
 }
-.userButtons{
-    width:50%;
+.userButtonSection{
+    width:40%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    padding:0px 10px;
 }
+.userButton{
+    width:80px;
+    height:25px;
+    border:1px solid rgb(29,29,29);
+    color:rgb(38,38,38);
+    background:transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:5px;
+}
+.profileCount{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.countUnit{
+    width:auto;
+    padding-right: 50px;
+}
+.profileCount span{
+    font-weight: bold;
+}
+.profileName{
+    width:100%;
+}
+.profileName p{
+    font-size: 16px;
+    font-weight: bold;
+    color:rgb(38,38,38);
+}
+p.profileDesc{
+    font-weight: 100;
+    color:rgb(38,38,38);
+}
+
 
 .imageSection{
     width:100%;
