@@ -143,10 +143,59 @@
 }
 
 
+
+.profileMain{
+    width:100%;
+    height:100vh;
+    display:flex;
+    align-items:flex-start;
+    justify-content: center;
+    background:#fafafa;
+    padding:100px 0px 50px;
+}
 .profileContainer{
     width:950px;
     min-height:100px;
 }
+.topSection{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-bottom:100px;
+}
+.profilePicSection{
+    width:33%;
+    display: flex;
+    justify-content: flex-start;
+    padding:20px 5px;
+}
+.profilePic{
+    width:150px;
+    height:150px;
+    
+}
+.profilePic img{
+    width:100%;
+    height:100%;border-radius:50%;
+}
+
+.topData{
+    width:66%;
+    padding:20px 5px;
+}
+.topProfile{
+    width:100%;
+    display:flex;
+    justify-content: flex-start;
+}
+.userName{
+    width:50%;
+}
+.userButtons{
+    width:50%;
+}
+
 .imageSection{
     width:100%;
     display: flex;
